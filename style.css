@@ -1,19 +1,65 @@
+.container {
+  position: relative;
+  top: -25px;
+  left: -25px;}
 
 
 .left {
-
+  opacity: 0.8;
+margin-left: 50px;
+}
+.leftt {
+  margin-left: 50px;
 
 }
+.lefttt {
+margin-left: -200px;
+}
+.righttt{
+margin-left: 750px;
+
+}
+.hi {  position: absolute;
+
+}
+
 .right {
 float: right;
+top: -100px;
+
+}
+.rightt {
+float: right;
+top: -100px;
+opacity: 0.8;
+
 
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+.text-block {
+  position: absolute;
+  top: 20px;
+
+}
+.text-blockk {
+  position: absolute;
+  top: 20px;
+left: 550px;
+
+}
+.text-blockkk {
+  position: absolute;
+  top: 10px;
+  left: : 1000px;
+
 }
 
 body {
@@ -21,11 +67,11 @@ body {
   background-color:#FFFFFF;
 
 }
-p1 {
+p2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 100%;
   text-align: center;
   font-family: "EBGaramond-Italic";
  letter-spacing: 0.05em;
@@ -40,7 +86,11 @@ h1{
   letter-spacing: 0.05em;
   font-weight: lighter;
   font-size: 42px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+justify-content: center;
 
 
 }
@@ -51,6 +101,29 @@ p{
   font-size: 18px;
   letter-spacing: -0.00em;
   font-weight: lighter;
+text-align: center;}
+a{
 
+  font-family: "ITCGaramondStd-LtNarrow";
+  src: '/fonts/ITCGaramondStd-LtNarrow.otf';
+  font-size: 18px;
+  letter-spacing: -0.00em;
+  font-weight: lighter;
+text-align: center;
+color: black
+}
+
+p1{
+
+  font-family: "ITCGaramondStd-LtNarrow";
+  src: '/fonts/ITCGaramondStd-LtNarrow.otf';
+  font-size: 30px;
+  letter-spacing: -0.00em;
+  font-weight: lighter;
+text-align: center;}
+
+.centerr {
+  position: absolute;
+  top: 20px;
 
 }
